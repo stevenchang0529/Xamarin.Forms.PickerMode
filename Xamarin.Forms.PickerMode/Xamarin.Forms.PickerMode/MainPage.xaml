@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Forms.PickerMode.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core">
+    <StackLayout>
+        <Picker x:Name="picker" Title="請選擇顏色" ios:Picker.UpdateMode="WhenFinished">
+            <Picker.Items>
+                <x:String>紅色</x:String>
+                <x:String>藍色</x:String>
+                <x:String>綠色</x:String>
+                <x:String>黑色</x:String>
+                <x:String>白色</x:String>
+            </Picker.Items>
+        </Picker>
+    </StackLayout>
+</ContentPage>
